@@ -2,7 +2,7 @@
 HackerRank: Divisible Sum Pairs
 Link: https://www.hackerrank.com/challenges/three-month-preparation-kit-divisible-sum-pairs/problem?h_l=interview&h_r=next-challenge&h_r%5B%5D%5B%5D=next-challenge&h_r%5B%5D%5B%5D=next-challenge&h_r%5B%5D%5B%5D%5B%5D%5B%5D=next-challenge&h_r%5B%5D%5B%5D%5B%5D%5B%5D=next-challenge&h_v=zen&h_v%5B%5D%5B%5D=zen&h_v%5B%5D%5B%5D=zen&h_v%5B%5D%5B%5D%5B%5D%5B%5D=zen&h_v%5B%5D%5B%5D%5B%5D%5B%5D=zen&isFullScreen=true&playlist_slugs%5B%5D%5B%5D%5B%5D%5B%5D%5B%5D=preparation-kits&playlist_slugs%5B%5D%5B%5D%5B%5D%5B%5D%5B%5D=three-month-preparation-kit&playlist_slugs%5B%5D%5B%5D%5B%5D%5B%5D%5B%5D=three-month-week-one
 
-문제: 정수 k와 양의 정수의 배열이 주어지면, i < j와 ar [i] + ar [j]가 k로 나누어지는 (i, j) 쌍의 수를 결정한다.
+문제: 정수 k와 양의 정수의 배열이 주어지면, i < j와 array[i] + array[j]가 k로 나누어지는 (i, j) 쌍의 수를 결정한다.
 """
 
 import os

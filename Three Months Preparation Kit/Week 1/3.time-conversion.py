@@ -2,8 +2,10 @@
 HackerRank: Time Conversion
 Link: https://www.hackerrank.com/challenges/three-month-preparation-kit-time-conversion/problem?h_l=interview&h_r%5B%5D=next-challenge&h_r%5B%5D=next-challenge&h_v%5B%5D=zen&h_v%5B%5D=zen&isFullScreen=true&playlist_slugs%5B%5D%5B%5D=preparation-kits&playlist_slugs%5B%5D%5B%5D=three-month-preparation-kit&playlist_slugs%5B%5D%5B%5D=three-month-week-one
 
-문제: 지정된 12시간(AM/PM)을 군대(24시간) 시간으로 변환합니다.
-참고: - 12:00:0012시간 시계의 AM은 24시간 시계의 00:00:00입니다. - 12:00:0012시간 시계의 PM은 24시간 시계의 12:00:00입니다.
+문제: 지정된 12시간(AM/PM)을 24시간으로 변환합니다.
+참고:
+    - 12시간 시계의 12:00:00AM은 24시간 시계의 00:00:00입니다.
+    - 12시간 시계의 12:00:00PM은 24시간 시계의 12:00:00입니다.
 """
 import os
 
