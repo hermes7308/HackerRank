@@ -81,16 +81,19 @@ inventories = {
     }
 }
 
-# target = inventories["week1"]["plus-minus"]["problem"]
-# target = inventories["week1"]["min-max-sum"]["problem"]
-# target = inventories["week1"]["time-conversion"]["problem"]
-# target = inventories["week1"]["breaking-the-records"]["problem"]
-# target = inventories["week1"]["camel-case-4"]["problem"]
-# target = inventories["week1"]["divisible-sum-pairs"]["problem"]
-target = inventories["week1"]["sparse-arrays"]["problem"]
-
+targets = [
+    inventories["week1"]["plus-minus"]["problem"],
+    inventories["week1"]["min-max-sum"]["problem"],
+    inventories["week1"]["time-conversion"]["problem"],
+    inventories["week1"]["breaking-the-records"]["problem"],
+    inventories["week1"]["camel-case-4"]["problem"],
+    inventories["week1"]["divisible-sum-pairs"]["problem"],
+    inventories["week1"]["sparse-arrays"]["problem"]
+]
 if __name__ == '__main__':
-    filename = target["filename"]
-    text = target["message"]
     voice_generator = VoiceGenerator()
-    voice_generator.generate(text=text, filename=filename)
+
+    for target in targets:
+        filename = target["filename"]
+        text = target["message"]
+        voice_generator.generate(text=text, filename=filename)

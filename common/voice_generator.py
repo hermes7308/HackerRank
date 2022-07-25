@@ -43,6 +43,12 @@ class VoiceGenerator:
             ssml_gender=ssml_gender
         )
 
+        print("Created Voice Generator Object.")
+        print("Audio Config:")
+        print(self.audio_config)
+        print("Voice:")
+        print(self.voice)
+
     def generate(self, text="", filename=None):
         # Perform the text-to-speech request on the text input with the selected
         # The response's audio_content is binary.
@@ -52,7 +58,8 @@ class VoiceGenerator:
 
         # Set the text input to be synthesized
         synthesis_input = texttospeech.SynthesisInput(text=text)
-
+        print("=" * 150)
+        print("Generating a voice...\n", text.strip())
         response = self.client.synthesize_speech(
             input=synthesis_input, voice=self.voice, audio_config=self.audio_config
         )
@@ -61,7 +68,7 @@ class VoiceGenerator:
         with open(path, "wb") as out:
             # Write the response to the output file.
             out.write(response.audio_content)
-            print('Audio content written to file "{path}"'.format(path=path))
+            print('Audio content written to file "{path}"\n'.format(path=path))
 
 
 if __name__ == '__main__':
