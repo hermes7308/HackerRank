@@ -173,7 +173,94 @@ inventories = {
                         클래스 이름은 대문자로 시작하는 것을 제외하고 동일한 패턴을 따릅니다.
                         Camel Case 변수, 메서드 및 클래스 이름을 만들거나 분할하는 프로그램을 작성하는 것이 당신의 작업입니다.
                 """
-            }
+            },
+            "00_10_33": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 1, Camel Case 4 00_10_33",
+                "message": """
+                    먼저, Python 실행 main 구문을 작성합니다.
+                """
+            },
+            "00_10_44": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 1, Camel Case 4 00_10_44",
+                "message": """
+                    다음으로, 입력 데이터를 읽어와 뉴라인 별로 나누어 저장합니다.
+                """
+            },
+            "00_11_40": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 1, Camel Case 4 00_11_40",
+                "message": """
+                    그 후, 새미콜론으로 결합되어 있는 입력 데이터를 분할 합니다.
+                    명령어는 Split 또는 Combine, 
+                    요청타입은 Method 또는 Variable 또는 Class가 있습니다.
+                """
+            },
+            "00_12_07": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 1, Camel Case 4 00_12_07",
+                "message": """
+                    해당 명령어가 Split 일 경우, Combine 된 이름을 분리하는 것이기 때문에, 
+                    이름의 각 대문자 위치를 찾아서 나눈 후, 소문자로 변경하여 리스트에 저장합니다.
+                """
+            },
+            "00_17_43": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 1, Camel Case 4 00_17_43",
+                "message": """
+                    요청타입이 Method 인 경우, 괄호를 제외하고,
+                    요청타입이 Class 또는 Variable 인 경우, Pass 합니다. 
+                """
+            },
+            "00_19_32": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 1, Camel Case 4 00_19_32",
+                "message": """
+                    리스트를 크기 1인 공백으로 Join해서 결과로 출력해줍니다.
+                """
+            },
+            "00_19_46": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 1, Camel Case 4 00_19_46",
+                "message": """
+                    제가 import 하지 않았군요.
+                    상단에 import 를 추가해줍니다.
+                """
+            },
+            "00_20_02": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 1, Camel Case 4 00_20_02",
+                "message": """
+                    해당 명령어가 Combine 일 경우, Split 된 이름을 결합하는 것이기 때문에, 
+                    이름을 공백 별로 나누고,
+                    각 첫 자리 문자를 대문자화 하여 리스트에 저장을 합니다.
+                """
+            },
+            "00_21_33": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 1, Camel Case 4 00_21_33",
+                "message": """
+                    요청타입이 Method 인 경우, 리스트의 첫번째 변수의 첫 글자를 소문자로 변경하고, 
+                    뒤에 괄호를 추가해줍니다.
+                """
+            },
+            "00_23_10": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 1, Camel Case 4 00_23_10",
+                "message": """
+                    요청타입이 Class 인 경우, 변경 사항은 없습니다.
+                """
+            },
+            "00_23_24": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 1, Camel Case 4 00_23_24",
+                "message": """
+                    요청타입이 Variable 인 경우, 리스트의 첫번째 변수의 첫 글자를 소문자로 변경합니다.
+                    리스트를 Join해서 결과로 출력해 줍니다.
+                """
+            },
+            "00_24_23": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 1, Camel Case 4 00_24_23",
+                "message": """
+                    에러가 발생했네요. 무엇이 문제 인지 확인해 볼까요?
+                """
+            },
+            "00_24_39": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 1, Camel Case 4 00_24_39",
+                "message": """
+                    앗!! 제가 29번째 줄에 괄호를 잘못 넣었습니다. 수정해줍니다.
+                """
+            },
         },
         "divisible_sum_pairs": {
             "problem": {
@@ -182,7 +269,28 @@ inventories = {
                     문제, Divisible Sum Pairs.
                         정수 k와 양의 정수의 배열이 주어지면, i가 j보다 작고, 배열 i + 배열 j 가 k로 나누어지는 (i, j) 쌍의 수를 찾아라.
                 """
-            }
+            },
+            "00_25_39": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 1, Divisible Sum Pairs 00_25_39",
+                "message": """
+                    먼저, i, j 쌍수의 갯수를 저장할 변수와, 
+                    배열의 길이를 저장할 변수를 생성합니다.
+                """
+            },
+            "00_26_00": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 1, Divisible Sum Pairs 00_26_00",
+                "message": """
+                    모든 i와, i보다 큰 j가 저장되어 있는 변수의 합을 k로 나누어, 
+                    0으로 나누어 떨어지는 쌍수가 있을 경우, 
+                    쌍수 갯수를 저장하는 변수를 증가시킵니다. 
+                """
+            },
+            "00_27_09": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 1, Divisible Sum Pairs 00_27_09",
+                "message": """
+                    마지막으로, 쌍수 갯수를 저장한 변수를 반환합니다. 
+                """
+            },
         },
         "sparse_arrays": {
             "problem": {
@@ -190,10 +298,47 @@ inventories = {
                 "message": """
                     문제, Sparse Arrays.
                         입력 문자열 모음과 쿼리 문자열 모음이 있습니다. 
-                        각 쿼리 문자열에 대해 입력 문자열 목록에서 발생하는 횟수를 결정합니다. 
-                        결과 배열을 반환합니다.
+                        각 쿼리 문자열에 대해 입력 문자열 목록에서 발생하는 횟수를 결정합니다.
                 """
-            }
+            },
+            "00_28_09": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 1, Sparse Arrays 00_28_09",
+                "message": """
+                    먼저, 빈 리스트를 생성합니다.
+                """
+            },
+            "00_28_15": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 1, Sparse Arrays 00_28_15",
+                "message": """
+                    반복문을 사용하여 queries 안에 있는 query를 가져옵니다.
+                """
+            },
+            "00_28_23": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 1, Sparse Arrays 00_28_23",
+                "message": """
+                    해당 query의 count를 초기화 하고,
+                    반목문을 사용하여 strings 안에 있는 string을 가져옵니다.
+                """
+            },
+            "00_28_34": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 1, Sparse Arrays 00_28_34",
+                "message": """
+                    만약, query와 string이 같을 경우 count를 증가시킵니다.
+                """
+            },
+            "00_28_47": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 1, Sparse Arrays 00_28_47",
+                "message": """
+                    query와 strings의 비교과 완료되면, 
+                    처음에 생성한 빈 리스트에 넣어 줍니다.
+                """
+            },
+            "00_28_59": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 1, Sparse Arrays 00_28_59",
+                "message": """
+                    마지막으로, 해당 리스트를 반환합니다.
+                """
+            },
         }
     }
 }
@@ -227,11 +372,35 @@ targets = [
     # inventories["week1"]["breaking_the_records"]["problem"],
     # inventories["week1"]["breaking_the_records"]["00_07_47"],
     # inventories["week1"]["breaking_the_records"]["00_08_15"],
-    inventories["week1"]["breaking_the_records"]["00_09_15"],
-
+    # inventories["week1"]["breaking_the_records"]["00_09_15"],
+    # Camel Case 4
     # inventories["week1"]["camel_case_4"]["problem"],
+    # inventories["week1"]["camel_case_4"]["00_10_33"],
+    # inventories["week1"]["camel_case_4"]["00_10_44"],
+    # inventories["week1"]["camel_case_4"]["00_11_20"],
+    # inventories["week1"]["camel_case_4"]["00_12_20"],
+    # inventories["week1"]["camel_case_4"]["00_17_56"],
+    # inventories["week1"]["camel_case_4"]["00_19_32"],
+    # inventories["week1"]["camel_case_4"]["00_19_46"],
+    # inventories["week1"]["camel_case_4"]["00_20_02"],
+    # inventories["week1"]["camel_case_4"]["00_21_56"],
+    # inventories["week1"]["camel_case_4"]["00_23_34"],
+    # inventories["week1"]["camel_case_4"]["00_23_47"],
+    # inventories["week1"]["camel_case_4"]["00_24_47"],
+    # inventories["week1"]["camel_case_4"]["00_25_01"],
+    # Divisible sum pairs
     # inventories["week1"]["divisible_sum_pairs"]["problem"],
-    # inventories["week1"]["sparse_arrays"]["problem"]
+    # inventories["week1"]["divisible_sum_pairs"]["00_25_39"],
+    # inventories["week1"]["divisible_sum_pairs"]["00_26_00"],
+    # inventories["week1"]["divisible_sum_pairs"]["00_27_09"],
+    # Sparse Arrays
+    # inventories["week1"]["sparse_arrays"]["problem"],
+    inventories["week1"]["sparse_arrays"]["00_28_09"],
+    inventories["week1"]["sparse_arrays"]["00_28_15"],
+    inventories["week1"]["sparse_arrays"]["00_28_23"],
+    inventories["week1"]["sparse_arrays"]["00_28_34"],
+    inventories["week1"]["sparse_arrays"]["00_28_47"],
+    inventories["week1"]["sparse_arrays"]["00_28_59"],
 ]
 if __name__ == '__main__':
     voice_generator = VoiceGenerator()
