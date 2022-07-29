@@ -26,6 +26,62 @@ inventories = {
             },
         },
     },
+    # introduction
+    "introduction": {
+        "00_00_04": {
+            "filename": "[HackerRank] 3 Months Preparation Kit, Introduction, 00_00_04",
+            "message": """
+                안녕하세요. 비비빅 TV에 비기 입니다.
+                저에 대해서 간단히 설명하자면, 저는 한국에서 2년 정도 개발자로 일을 했습니다.
+                그 후, 미국으로 이민오게 되었고, 미국에 있는 한국회사에서 2년 정도 일을 하게되었습니다.
+                될 수 있으면, 미국에 있는 한국회사는 절대 가지 마세요.
+                거의 대부분의 미국에 있는 한국 회사는 배울것도 없고, 개발자의 미래에 크게 도움이 되지 않습니다.
+                한국에서 유명한 S 기업이나 L 기업이라고 해도 별반 다르지 않습니다.
+                개발자로 4년 정도 일을 해오면서, 거의 모든 프로젝트들이 웹 기반으로 하는 Front end, Back end 시스템을 개발해왔는데, 
+                해당 일이 너무 지겨워 졌습니다.
+                Database에 데이터를 넣었다 뺐다, 복잡하게 굴러가는 시스템, 분석하고 개발하는 일 더이상 하기 싫어졌습니다.
+                그 회사에서 하는 일이 도저히 저와 맞지 않아, 회사를 그만두고, Los Angeles 근처이 있는 대학원에 다니면서, 구직활동을 하다,
+                몇일 뒤부터 미국회사에서 일을 하게 되었습니다.
+            """
+        },
+        "00_01_14": {
+            "filename": "[HackerRank] 3 Months Preparation Kit, Introduction, 00_01_14",
+            "message": """
+                개발자로 일을 하면서, Algorithm을 잘 안다고 생각했습니다.
+                막상, 인터뷰 및 코딩 테스트를 진행하면서, 부족한 점을 많이 느끼게 되었고, Algorithm 공부를 다시 해야겠다고 생각하게되었습니다.
+                모든 개발자들이 저와 같지 않겠지만, 저와 유사한 환경에 있으신 분들, 구직활동을 준비하시는 분들에게,
+                조금이나마 도움이 되었으면 하는 마음에 해당 영상을 제작하게 되었습니다.
+            """
+        },
+        "00_01_47": {
+            "filename": "[HackerRank] 3 Months Preparation Kit, Introduction, 00_01_47",
+            "message": """
+                지금 화면에 보이는 회사들은 한국에서도 한번쯤 들어보셨을 회사들이죠?
+                해당 회사들은 저의 선호도에 따라 나눈 회사입니다.
+                시청자 분들도, 본인만의 목표하는 회사를 설정해두고, 공부하시는 것은 어떨까요?
+                회사마다 선호하는 인터뷰 스킬이나 알고리즘 문제들이 있기 때문에, 
+                목표를 설정해 두고, 거기에 Focus 해서 준비를 하면 도움이 될것 같습니다.
+            """
+        },
+        "00_02_16": {
+            "filename": "[HackerRank] 3 Months Preparation Kit, Introduction, 00_02_16",
+            "message": """
+                제가 미국에서 구직활동을 하면서, 배우게 된 것은, 
+                Amazon이나 Tesla 등 에서는 HackerRank 또는 이와 유사한 시스템을 이용해서, 코딩 테스트를 진행합니다.
+            """
+        },
+        "00_02_31": {
+            "filename": "[HackerRank] 3 Months Preparation Kit, Introduction, 00_02_31",
+            "message": """
+                HackerRank 에서는 다양한 알고리즘 문제들을 제공합니다.
+                앞으로 영상에서는 주어진 Topic 에대한 설명 및 풀이를 할 예정입니다.
+                구성은 13주로 나누어져 있습니다.
+                해당 영상이 공부 또는 취업 하시는데, 도움이 되었으면 합니다.
+                많이 부족하지만 좋게 봐주세요.
+                감사합니다.
+            """
+        },
+    },
     # week1
     "week1": {
         "plus_minus": {
@@ -350,6 +406,12 @@ targets = [
     # inventories["common"]["insertion"]["completion_run_code"],
     # inventories["common"]["insertion"]["submit_code"],
     # inventories["common"]["insertion"]["completion_submit_code"],
+    # introduction
+    inventories["introduction"]["00_00_04"],
+    inventories["introduction"]["00_01_14"],
+    inventories["introduction"]["00_01_47"],
+    inventories["introduction"]["00_02_16"],
+    inventories["introduction"]["00_02_31"],
     # week1
     # Plus Minus
     # inventories["week1"]["plus_minus"]["problem"],
@@ -395,12 +457,12 @@ targets = [
     # inventories["week1"]["divisible_sum_pairs"]["00_27_09"],
     # Sparse Arrays
     # inventories["week1"]["sparse_arrays"]["problem"],
-    inventories["week1"]["sparse_arrays"]["00_28_09"],
-    inventories["week1"]["sparse_arrays"]["00_28_15"],
-    inventories["week1"]["sparse_arrays"]["00_28_23"],
-    inventories["week1"]["sparse_arrays"]["00_28_34"],
-    inventories["week1"]["sparse_arrays"]["00_28_47"],
-    inventories["week1"]["sparse_arrays"]["00_28_59"],
+    # inventories["week1"]["sparse_arrays"]["00_28_09"],
+    # inventories["week1"]["sparse_arrays"]["00_28_15"],
+    # inventories["week1"]["sparse_arrays"]["00_28_23"],
+    # inventories["week1"]["sparse_arrays"]["00_28_34"],
+    # inventories["week1"]["sparse_arrays"]["00_28_47"],
+    # inventories["week1"]["sparse_arrays"]["00_28_59"],
 ]
 if __name__ == '__main__':
     voice_generator = VoiceGenerator()

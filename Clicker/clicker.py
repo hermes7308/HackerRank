@@ -1,15 +1,15 @@
 import threading
 import time
 
-from pynput.keyboard import Listener, KeyCode
+from pynput.keyboard import Listener, KeyCode, Key
 from pynput.mouse import Button, Controller
 
 # KeyCode to control Clicker
 start_and_stop_key_code = KeyCode(char='s')
-exit_key_code = KeyCode(char='q')
+exit_key_code = Key.esc
 # Setting for details
 delay = 0.001
-num_of_clicking = 10
+num_of_clicking = 2000
 
 
 class Clicker(threading.Thread):
