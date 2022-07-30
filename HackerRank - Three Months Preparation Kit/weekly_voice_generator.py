@@ -396,73 +396,23 @@ inventories = {
                 """
             },
         }
+    },
+    "week2": {
+        "lonely_integer": {
+            "problem": {
+                "filename": "[HackerRank] 3 Months Preparation Kit | Week 2, Lonely Integer problem",
+                "message": """
+                    문제, Mini-Max Sum.
+                        5개의 양의 정수가 주어지면, 5개의 정수 중 정확히 네 개의 정수를 합하여 계산할 수 있는 최소값과 최대값을 구하라.
+                """
+            },
+        },
     }
 }
 
 targets = [
-    # common
-    # inventories["common"]["insertion"]["read_and_analyze"],
-    # inventories["common"]["insertion"]["run_code"],
-    # inventories["common"]["insertion"]["completion_run_code"],
-    # inventories["common"]["insertion"]["submit_code"],
-    # inventories["common"]["insertion"]["completion_submit_code"],
-    # introduction
-    inventories["introduction"]["00_00_04"],
-    inventories["introduction"]["00_01_14"],
-    inventories["introduction"]["00_01_47"],
-    inventories["introduction"]["00_02_16"],
-    inventories["introduction"]["00_02_31"],
-    # week1
-    # Plus Minus
-    # inventories["week1"]["plus_minus"]["problem"],
-    # inventories["week1"]["plus_minus"]["00_00_25"],
-    # inventories["week1"]["plus_minus"]["00_00_41"],
-    # inventories["week1"]["plus_minus"]["00_00_48"],
-    # inventories["week1"]["plus_minus"]["00_01_19"],
-    # Mini-Max Sum
-    # inventories["week1"]["min_max_sum"]["problem"],
-    # inventories["week1"]["min_max_sum"]["00_03_33"],
-    # inventories["week1"]["min_max_sum"]["00_03_38"],
-    # inventories["week1"]["min_max_sum"]["00_04_08"],
-    # Time Conversion
-    # inventories["week1"]["time_conversion"]["problem"],
-    # inventories["week1"]["time_conversion"]["00_05_22"],
-    # inventories["week1"]["time_conversion"]["00_05_34"],
-    # inventories["week1"]["time_conversion"]["00_05_55"],
-    # inventories["week1"]["time_conversion"]["00_06_12"],
-    # Breaking the records
-    # inventories["week1"]["breaking_the_records"]["problem"],
-    # inventories["week1"]["breaking_the_records"]["00_07_47"],
-    # inventories["week1"]["breaking_the_records"]["00_08_15"],
-    # inventories["week1"]["breaking_the_records"]["00_09_15"],
-    # Camel Case 4
-    # inventories["week1"]["camel_case_4"]["problem"],
-    # inventories["week1"]["camel_case_4"]["00_10_33"],
-    # inventories["week1"]["camel_case_4"]["00_10_44"],
-    # inventories["week1"]["camel_case_4"]["00_11_20"],
-    # inventories["week1"]["camel_case_4"]["00_12_20"],
-    # inventories["week1"]["camel_case_4"]["00_17_56"],
-    # inventories["week1"]["camel_case_4"]["00_19_32"],
-    # inventories["week1"]["camel_case_4"]["00_19_46"],
-    # inventories["week1"]["camel_case_4"]["00_20_02"],
-    # inventories["week1"]["camel_case_4"]["00_21_56"],
-    # inventories["week1"]["camel_case_4"]["00_23_34"],
-    # inventories["week1"]["camel_case_4"]["00_23_47"],
-    # inventories["week1"]["camel_case_4"]["00_24_47"],
-    # inventories["week1"]["camel_case_4"]["00_25_01"],
-    # Divisible sum pairs
-    # inventories["week1"]["divisible_sum_pairs"]["problem"],
-    # inventories["week1"]["divisible_sum_pairs"]["00_25_39"],
-    # inventories["week1"]["divisible_sum_pairs"]["00_26_00"],
-    # inventories["week1"]["divisible_sum_pairs"]["00_27_09"],
-    # Sparse Arrays
-    # inventories["week1"]["sparse_arrays"]["problem"],
-    # inventories["week1"]["sparse_arrays"]["00_28_09"],
-    # inventories["week1"]["sparse_arrays"]["00_28_15"],
-    # inventories["week1"]["sparse_arrays"]["00_28_23"],
-    # inventories["week1"]["sparse_arrays"]["00_28_34"],
-    # inventories["week1"]["sparse_arrays"]["00_28_47"],
-    # inventories["week1"]["sparse_arrays"]["00_28_59"],
+    # week2
+    inventories["week2"]["lonely_integer"]["problem"]
 ]
 if __name__ == '__main__':
     voice_generator = VoiceGenerator()
