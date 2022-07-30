@@ -3,7 +3,7 @@ HackerRank: Lonely Integer
 Link: https://www.hackerrank.com/challenges/three-month-preparation-kit-lonely-integer/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=three-month-preparation-kit&playlist_slugs%5B%5D=three-month-week-two
 
 문제:
-
+    주어진 정수형 배열에서 unique 한 변수를 찾는 algorithm 을 작성하시오.
 """
 
 import os

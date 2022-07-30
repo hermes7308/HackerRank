@@ -3,7 +3,9 @@ HackerRank: Diagonal Difference
 Link: https://www.hackerrank.com/challenges/three-month-preparation-kit-diagonal-difference/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=three-month-preparation-kit&playlist_slugs%5B%5D=three-month-week-two
 
 문제:
-
+    주어진 정사각형 matrix 의 대각선을 계산하는 문제입니다.
+    왼쪽에서 오른쪽 대각선의 합과 오른쪽에서 왼쪽 대각선의 합의 차를 구해야합니다.
+    값은 절대값으로 반환합니다.
 """
 
 import os

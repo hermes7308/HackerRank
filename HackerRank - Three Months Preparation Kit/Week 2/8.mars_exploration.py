@@ -3,7 +3,7 @@ HackerRank: Mars Exploration
 Link: https://www.hackerrank.com/challenges/three-month-preparation-kit-mars-exploration/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=three-month-preparation-kit&playlist_slugs%5B%5D=three-month-week-two
 
 문제:
-
+    지구로 보내는 SOS 신호를 확인 하고, 그 신호가 얼마나 변형 되었는지 계산 하시오.
 """
 
 import os

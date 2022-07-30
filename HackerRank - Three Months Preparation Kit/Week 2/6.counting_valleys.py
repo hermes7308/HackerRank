@@ -3,7 +3,7 @@ HackerRank: Counting Valleys
 Link: https://www.hackerrank.com/challenges/three-month-preparation-kit-counting-valleys/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=three-month-preparation-kit&playlist_slugs%5B%5D=three-month-week-two
 
 문제:
-
+    계곡 아래로 내려 갔다가 올라올 때 sea level 에 도달한 횟수를 계산 하시오.
 """
 
 import os

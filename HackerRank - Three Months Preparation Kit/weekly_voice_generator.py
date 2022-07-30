@@ -24,6 +24,10 @@ inventories = {
                 "filename": "[Common] Completion submit code",
                 "message": "모든 테스트 케이스가 완료된 것을 확인할 수 있습니다."
             },
+            "go_to_next_problem": {
+                "filename": "[Common] Go to a next problem",
+                "message": "다음 문제로 넘어가 볼까요?"
+            },
         },
     },
     # introduction
@@ -399,20 +403,356 @@ inventories = {
     },
     "week2": {
         "lonely_integer": {
-            "problem": {
-                "filename": "[HackerRank] 3 Months Preparation Kit | Week 2, Lonely Integer problem",
+            "free_talking": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Lonely Integer free_talking",
                 "message": """
-                    문제, Mini-Max Sum.
-                        5개의 양의 정수가 주어지면, 5개의 정수 중 정확히 네 개의 정수를 합하여 계산할 수 있는 최소값과 최대값을 구하라.
+                    Hacker Rank, 3 개월 과정 두번째 주 입니다.
+                    그럼, 시작해볼까요?
+                """
+            },
+            "problem": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Lonely Integer problem",
+                "message": """
+                    문제, Lonely Integer
+                """
+            },
+            "summary": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Lonely Integer summary",
+                "message": """
+                    주어진 정수형 배열에서 unique 한 변수를 찾는 algorithm 을 작성하시오.
+                """
+            },
+            "00_00_33": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Lonely Integer 00_00_33",
+                "message": """
+                    먼저, 주어진 배열 안에 있는 값을 계산할 map 또는 dictionary 을 만듭니다. 
+                """
+            },
+            "00_00_40": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Lonely Integer 00_00_40",
+                "message": """
+                    배열 안에 있는 값을 하나씩 가져와, map 에 넣어 줍니다.
+                    만약, map 에 이미 존재할 경우, count 갯수를 1 증가 시키고,
+                    없을 경우 해당 key 에 1을 넣어 줍니다.
+                """
+            },
+            "00_01_07": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Lonely Integer 00_01_07",
+                "message": """
+                    count map 에서 값이 1 인 숫자를 찾습니다.
+                    해당 값이 1 인 경우, unique한 변수 입니다.
+                """
+            },
+            "00_01_34": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Lonely Integer 00_01_34",
+                "message": """
+                    만약, unique 변수가 없다면, None 을 반환합니다.
                 """
             },
         },
+        "grading_students": {
+            "problem": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Grading Students problem",
+                "message": """
+                    문제, Grading Students
+                """
+            },
+            "summary": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Grading Students summary",
+                "message": """
+                    학생의 성적을 계산하는 문제입니다.
+                    점수가 40 보다 크고, 성적을 5로 나누었을때, 나머지가 2 이하인 경우 반올림 합니다..
+                    점수가 40 보다 작으면, 40 을 반환 합니다.
+                """
+            },
+            "00_03_00": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Grading Students 00_03_00",
+                "message": """
+                    먼저, 성적이 저장되어 있는 배열의 Index 를 가져옵니다.
+                    그 후, 해당 Index 를 이용하여 grade 를 가져옵니다.
+                    만약, grade 가 38 보다 작으면, 그 성적에 수정이 필요하지 않습니다.
+                    그리고, grade 를 5로 나눈 몫을 구하고, 
+                    만약, grade 가 5로 나누어 떨어지지 않으면, 몫에 1을 추가합니다.
+                    마지막으로, 몫에 5를 곱한 값을 rounded grade 변수에 저장을 하고, 
+                    그 변수 값과 기존의 변수 값의 차이가 3 보다 작으면, 
+                    반올림된 값으로 성적을 수정합니다.
+                    그리고, 변경된 성적 배열을 반환합니다.
+                """
+            },
+            "00_04_37": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Grading Students 00_04_37",
+                "message": """
+                    그리고, 변경된 성적 배열을 반환합니다.
+                """
+            },
+        },
+        "flipping_bits": {
+            "problem": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Flipping bits problem",
+                "message": """
+                    문제, Flipping bits
+                """
+            },
+            "summary": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Flipping bits summary",
+                "message": """
+                    주어진 32 비트 unsigned integer 를 flip 하시오. (1 -> 0 and 0 -> 1)
+                    그리고, 그 결과를 unsigned integer 로 반환하시오.
+                """
+            },
+            "00_05_39": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Flipping bits 00_05_39",
+                "message": """
+                    먼저, 정수를 binary 문자열로 변경해줍니다.
+                """
+            },
+            "00_05_53": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Flipping bits 00_05_53",
+                "message": """
+                    결과를 반환할 빈 문자열을 만들어 줍니다.
+                """
+            },
+            "00_05_58": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Flipping bits 00_05_58",
+                "message": """
+                    각 비트의 값을 가져와, 만약 1이면, 결과값에 0을 추가하고, 반대의 경우 1을 추가합니다.
+                """
+            },
+            "00_06_52": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Flipping bits 00_06_52",
+                "message": """
+                    마지막으로, 결과값을 반환할 때, 문자열 binary 를 정수로 변환합니다.
+                """
+            },
+        },
+        "diagonal_difference": {
+            "problem": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Diagonal Difference problem",
+                "message": """
+                    문제, Diagonal Difference
+                """
+            },
+            "summary": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Diagonal Difference summary",
+                "message": """
+                    주어진 정사각형 matrix 의 대각선을 계산하는 문제입니다.
+                    왼쪽에서 오른쪽 대각선의 합과 오른쪽에서 왼쪽 대각선의 합의 차를 구해야합니다.
+                    값은 절대값으로 반환합니다.
+                """
+            },
+            "00_07_48": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Diagonal Difference 00_07_48",
+                "message": """
+                    먼저, 왼쪽 상단에서 오른쪽 하단으로 내려가는 대각선의 합을 저장할 변수를 초기화 합니다. 
+                """
+            },
+            "00_07_55": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Diagonal Difference 00_07_55",
+                "message": """
+                    그리고, matrix 에서 해당 변수를 가져와 더해줍니다.
+                """
+            },
+            "00_08_27": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Diagonal Difference 00_08_27",
+                "message": """
+                    이전과 같이 오른쪽 상단에서 왼쪽 하단으로 내려가는 대각선의 합을 저장할 변수를 초기화 합니다. 
+                """
+            },
+            "00_08_35": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Diagonal Difference 00_08_35",
+                "message": """
+                    그리고, matrix 에서 해당 변수를 가져와 더해줍니다.
+                """
+            },
+            "00_09_04": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Diagonal Difference 00_09_04",
+                "message": """
+                    마지막으로, 이전에 계산한 두 합 변수 차의 절대값을 반환합니다.
+                """
+            },
+        },
+        "counting_sort_1": {
+            "problem": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Counting Sort 1 problem",
+                "message": """
+                    문제, Counting Sort 1
+                """
+            },
+            "summary": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Counting Sort 1 summary",
+                "message": """
+                    Comparison 이 없는 sorting 알고리즘을 작성하시오.
+                    즉, CountingSort 를 개발해야 합니다.
+                """
+            },
+            "00_10_09": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Counting Sort 1 00_10_09",
+                "message": """
+                    먼저, Counting Sort 에 사용할 배열을 0으로 초기화 합니다.
+                    숫자는 100이하로 정해져 있으니 배열 크기를 100으로 생성합니다. 
+                """
+            },
+            "00_10_38": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Counting Sort 1 00_10_38",
+                "message": """
+                    입력 받은 배열의 값은 결과값의 Index 에 해당합니다.
+                    따라서, 각 배열 변수의 값을 이용하여 Index 에 값을 계산합니다.
+                """
+            },
+            "00_11_10": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Counting Sort 1 00_11_10",
+                "message": """
+                    마지막으로 계산이 완료된 결과값을 반환합니다.
+                """
+            },
+        },
+        "counting_valleys": {
+            "problem": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Counting Valleys problem",
+                "message": """
+                    문제, Counting Valleys
+                """
+            },
+            "summary": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Counting Valleys summary",
+                "message": """
+                    계곡 아래로 내려 갔다가 올라올 때, sea level 에 도달한 횟수를 계산 하시오.
+                """
+            },
+            "00_12_00": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Counting Valleys 00_12_00",
+                "message": """
+                    먼저, 현재 level 과 계곡 갯수를 초기화 합니다.
+                """
+            },
+            "00_12_15": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Counting Valleys 00_12_15",
+                "message": """
+                    그리고, 만약 각 step 이 "U" 이면, 현재 level 을 1 증가시키고, 
+                    증가된 값이 sea level, 즉, 0 이면, 계곡 갯수를 1 증가시킵니다.
+                """
+            },
+            "00_13_19": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Counting Valleys 00_13_19",
+                "message": """
+                    반대의 경우, 각 step 이 "D" 이면, 현재 level 을 1 감소시킵니다.
+                """
+            },
+            "00_13_33": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Counting Valleys 00_13_33",
+                "message": """
+                    마지막으로 계산된 계곡 갯수를 반환합니다.
+                """
+            },
+        },
+        "pangrams": {
+            "problem": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Pangrams problem",
+                "message": """
+                    문제, Pangrams
+                """
+            },
+            "summary": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Pangrams summary",
+                "message": """
+                    해당 문제는 주어진 문자열에 포함 되어 있는 문자가 모든 alphabet 을 포함 하고 있는지 확인 하는 문제 입니다.
+                """
+            },
+            "00_14_42": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Pangrams 00_14_42",
+                "message": """
+                    먼저, alphabet ASCII 코드 배열을 생성합니다.
+                """
+            },
+            "00_15_25": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Pangrams 00_15_25",
+                "message": """
+                    그리고, 문자열에서 각 문자를 가져와 
+                    그 문자의 ASCII 코드가 alphabet 배열에 포함되어 있으면,
+                    해당 문자를 배열에서 제거합니다.
+                """
+            },
+            "00_16_04": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Pangrams 00_16_04",
+                "message": """
+                    마지막으로 alphabet 배열의 길이가 0보다 크면,
+                    문자열 "not pangram" 을 반환하고,
+                    0이면, "pangram" 을 반환합니다.
+                """
+            },
+            "00_16_34": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Pangrams 00_16_34",
+                "message": """
+                    앗! 문제가 생겼습니다.
+                    그 이유는 대문자 alphabet 과 소문자 alphabet 의 ASCII 코드는 다르기 때문입니다.
+                    입력 받은 문자열을 소문자로 변경해야합니다.
+                """
+            },
+        },
+        "mars_exploration": {
+            "problem": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Mars Exploration problem",
+                "message": """
+                    문제, Mars Exploration
+                """
+            },
+            "summary": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Mars Exploration summary",
+                "message": """
+                    지구로 보내는 SOS 신호를 확인 하고, 그 신호가 얼마나 변형 되었는지 계산하는 문제입니다.
+                """
+            },
+            "00_18_11": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Mars Exploration 00_18_11",
+                "message": """
+                    먼저, 전체 문자열의 SOS 갯수를 구합니다.
+                    SOS 의 크기는 3 이기 때문에, 전체 문자열 길이를 3으로 나누어 줍니다.
+                """
+            },
+            "00_18_28": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Mars Exploration 00_18_28",
+                "message": """
+                    그리고, 변형된 문자의 갯수를 저장할 변수를 초기화 합니다.
+                """
+            },
+            "00_18_36": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Mars Exploration 00_18_36",
+                "message": """
+                    이전에 구한 전체 SOS 갯수 만큼 반복하여 변형된 문자를 찾습니다.
+                    SOS 문자열의 0 index 는 첫번째 "S" 문자,
+                    1 index 는 "O" 문자이고, 2 index 는 마지막 "S" 문자입니다.
+                    각 문자를 비교하여 같지 않을 경우, 
+                    변형된 문자 갯수를 저장하는 변수의 값을 1 증가 시킵니다.
+                """
+            },
+            "00_19_50": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Mars Exploration 00_19_50",
+                "message": """
+                    마지막으로 계산이 완료된 변형 문자 갯수를 반환합니다.
+                """
+            },
+            "00_20_27": {
+                "filename": "[HackerRank] 3 Months Preparation Kit, Week 2, Mars Exploration 00_20_27",
+                "message": """
+                    지금까지 시청해주셔서 감사합니다.
+                    앞으로 더 좋은 영상으로 찾아뵙겠습니다.
+                """
+            },
+        }
     }
 }
 
 targets = [
     # week2
-    inventories["week2"]["lonely_integer"]["problem"]
+    # inventories["week2"]["pangrams"]["00_16_04"],
+    # inventories["week2"]["pangrams"]["00_16_34"],
+    # inventories["week2"]["mars_exploration"]["problem"],
+    # inventories["week2"]["mars_exploration"]["summary"],
+    # inventories["week2"]["mars_exploration"]["00_18_11"],
+    # inventories["week2"]["mars_exploration"]["00_18_28"],
+    # inventories["week2"]["mars_exploration"]["00_18_36"],
+    # inventories["week2"]["mars_exploration"]["00_19_50"],
+    inventories["week2"]["mars_exploration"]["00_20_27"],
 ]
 if __name__ == '__main__':
     voice_generator = VoiceGenerator()

@@ -1,9 +1,10 @@
 """
 HackerRank: Flipping bits
-Link: https://www.hackerrank.com/challenges/three-month-preparation-kit-grading/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=three-month-preparation-kit&playlist_slugs%5B%5D=three-month-week-two
+Link: https://www.hackerrank.com/challenges/three-month-preparation-kit-flipping-bits/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=three-month-preparation-kit&playlist_slugs%5B%5D=three-month-week-two
 
 문제:
-
+    주어진, 32 비트 unsigned integer 를 flip 하시오. (1 -> 0 and 0 -> 1)
+    그 결과를 unsigned integer 로 반환하시오.
 """
 
 import os

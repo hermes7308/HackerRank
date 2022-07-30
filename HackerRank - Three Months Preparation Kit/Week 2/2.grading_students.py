@@ -3,7 +3,9 @@ HackerRank: Grading Students
 Link: https://www.hackerrank.com/challenges/three-month-preparation-kit-grading/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=three-month-preparation-kit&playlist_slugs%5B%5D=three-month-week-two
 
 문제:
-
+    학생의 성적을 계산하는 문제입니다.
+    점수가 40 보다 크고, 성적을 5로 나누었을때, 나머지가 2 이하인 경우 반올림을 한다.
+    점수가 40 보다 작으면, 40 을 반환한다.
 """
 
 import math
